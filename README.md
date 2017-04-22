@@ -17,6 +17,7 @@ Editing TypeScript: https://code.visualstudio.com/docs/languages/typescript(edit
 
 Hacemos un ejemplo con un .HTML 
 
+```ts
 <title>TypeScript HTML App</title>
 <script src="index.js"></script>
  
@@ -27,11 +28,14 @@ Hacemos un ejemplo con un .HTML
     <br>
     <label id="lblSaludo"></label>
 </div>
+```
 
 y con un .TS
 
+```
 function saluda()
 {
     var usuario = (document.getElementById("nombreUsuario")).value;
     (document.getElementById("lblSaludo")).textContent = "Hola " + usuario;
 };
+```
