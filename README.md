@@ -14,3 +14,19 @@ TypeScript Tutorials – Setup VS Code to Write, Run & Debug Typescript: http://
 Visual Studio code y Typescript: Cómo usarlos juntos?: https://channel9.msdn.com/Blogs/MVP-VisualStudio-Dev/Visual-Studio-code-y-Typescript-Cmo-usarlos-juntos
 
 Editing TypeScript: https://code.visualstudio.com/docs/languages/typescript(editado)
+
+Hacemos un ejemplo con un .HTML 
+
+<title>TypeScript HTML App</title>
+<script src="index.js"></script>
+ 
+ 
+<div id="content">
+    <input id="nombreUsuario">
+    <button onclick="saluda();">Saluda</button>
+    <br>
+    <label id="lblSaludo"></label>
+</div>
+
+y con un .TS
+
