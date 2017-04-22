@@ -30,3 +30,8 @@ Hacemos un ejemplo con un .HTML
 
 y con un .TS
 
+function saluda()
+{
+    var usuario = (document.getElementById("nombreUsuario")).value;
+    (document.getElementById("lblSaludo")).textContent = "Hola " + usuario;
+};
